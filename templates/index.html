@@ -1,0 +1,21 @@
+<!-- my frist project using create a dynamic -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='playground.css') }}">
+    <title>Playground</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <div class="wrapper">
+
+        {% for x in range(0,times): %}
+        {{ lotsofSqu }}
+        {% endfor %}
+
+    </div>
+</body>
+</html>
